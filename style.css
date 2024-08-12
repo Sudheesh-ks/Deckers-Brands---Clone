@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Montserrat", sans-serif;
+}
+
+body {
+    font-family:"Montserrat", sans-serif;
+    font-size: 16px;
+    color: #262e35;
+}
+
+.navbar{      /*This is the design for navbar*/
+    display: flex;
+    justify-content: space-between;
+    height: 165px;
+}
+
+#Deckers-logo{
+    height: 48px;
+    width: 170px;
+}
+
+.logo{
+    margin-left: 100px;
+    padding-left: 60px;
+    margin-top: 80px;
+}
+
+.search-and-navs{
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    height: 22px;
+}
+
+.search-section{
+    display: flex;
+    height: 22px;
+    width: 230px;
+    justify-content: flex-end;
+    padding-left: 545px;
+    gap: 2px;
+}
+
+.search-bar{
+    display: flex;
+    background-color: #e6e6e6;
+}
+
+#input-type{
+    background-color: #e6e6e6;
+    border: none;
+}
+
+#search-icon{
+    padding: 4px 4px 4px 5px;
+}
+
+.search-btn button{
+    background-color: #e6e6e6;
+    border: none;
+    border: 0px solid #d6c9c9;
+    height: 22px;
+    padding: 3px 10px;
+}
+
+
+.options-ul{
+    display: flex;
+    gap: 36px;
+    text-align: left;
+    padding-top: 33px;
+    letter-spacing: 2.5px;
+}
+
+.options-ul a:hover{
+        border-bottom: 5px solid #e4e4e4;
+}
+
+.options-li a{
+    height: 47.8px;
+    color: #262e35;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 580;
+}
+
+.header-image{                   /*This is the design for header image*/
+    position: relative;
+    height: 468px;
+    width: 100%;
+}
+
+.header-image img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill ;
+    object-position: center;
+    background-size: cover;
+}
+
+.header-image-txt{
+    position: absolute;
+    top: 176px;
+    margin-left: 170px;
+    padding-top: 40px;
+    color: #5e5959;
+    height: 163.5px;
+    width: 311.41px;
+}
+
+.header-image-txt h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 530;
+}
+
+.header-image-txt h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.logos{                              /*This is the design for logos section*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 167px;
+}
+
+#logo-1{
+    height: 80px;
+    width: 172.5px;
+    padding-top: 47px;
+}
+
+#logo-2{
+    height: 80px;
+    width: 334px;
+    padding-top: 47px;
+}
+
+#logo-3{
+    height: 80px;
+    width: 448px;
+    padding-top: 47px;
+}
+
+.main-div-1{             
+    display: flex;
+    gap: 3px;
+}
+
+.main-pictures{
+    height: 427px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pictures{
+    height: 427px;
+    width: 50%;
+    
+}
+
+.main-div-2{
+    display: flex;
+    height: 205px;
+}
+
+.maindiv-h1btn{
+    width: 758.1px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.maindiv-h1{
+    font-size: 33.3333px;
+    font-weight: 520;
+    padding-bottom: 20px;
+}
+
+.btns{                       /*This is the design for buttons in div*/
+    height: 39.05px;
+    width: 244.85px;
+    color: #262e35;
+    padding: 16px 15px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #e6e6e6;
+    border: 0 none;
+    border-radius: 0;
+}
+
+.btns-1{
+    height: 39.05px;
+    width: 290.7px;
+    color: #262e35;
+    padding: 16px 15px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #e6e6e6;
+    border: 0 none;
+    border-radius: 0;
+}
+
+.maindiv-h1btn-2{
+    width: 758.1px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.main-div-3{
+    display: flex;
+    gap: 3px;
+}
+
+.spotlight{                                /*This is the design for spotlight section*/
+    background-image: url(bg-gradient.jpg);
+    height: 400px;
+    object-fit: cover;
+   text-align: center;
+}
+
+.spotlight-section{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 13.2px;
+}
+
+.spotlight h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 33.3333px;
+    font-weight: 520;
+}
+
+.spotlight p{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.spotlight a{
+    color: #262e35;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.main-div-4{
+    display: flex;
+    height: 205px;
+    gap: 3px;
+}
+
+.main-div-5{
+    display: flex;
+    gap: 3px;
+}
+
+.main-div-6{
+    display: flex;
+    height: 205px;
+}
+
+.main-div-7{
+    height: 411.45px;
+}
+
+.footer-image{
+    height: 411.45px;
+}
+
+.footer-container{                 /*This is the design for Footer section*/
+    height: 238px;
+}
+
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #262e35;
+    height: 33px;
+    width: 176.225px;
+    padding: 0 0 15px 0;
+    float: left;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.footer-ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    height: 66px;
+    width: 1050px;
+    float: right;
+    margin-top: -10px;
+    list-style: none;
+    margin-right: 285px;
+}
+
+.footer-ul li{
+    display: inline;
+}
+
+.first{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.second{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.third{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.fourth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.fifth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.sixth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.seventh{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 18px;
+    width: 137.05px;
+    padding:0 10px 0 10px;
+    cursor: pointer;
+    color: #262e35;
+    text-decoration: none;
+    display: inline;
+}
+
+.call{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.8px;
+    letter-spacing: 1.2px;
+    line-height: 16.2px;
+    color: #262e35;
+    height: 16.2px;
+    width: 714.938px;
+    margin: 0 0 20px 0;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 620px;
+}
+
+.finallogo{                         /*This is the design for images in footer*/
+    position: absolute;
+    height:28.3px;
+    width: 190px;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    margin-left: 760px;
+    margin-top: 145px;
+   }
+
+
+.link{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:720px ;
+    margin-top: 145px;
+}
+        
+
